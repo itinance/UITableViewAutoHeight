@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CD3AE2331AF4DCAC003CB772 /* Example2TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD3AE2321AF4DCAC003CB772 /* Example2TableViewController.m */; };
+		CD3AE2361AF4DCD0003CB772 /* Example2TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CD3AE2351AF4DCD0003CB772 /* Example2TableViewCell.m */; };
+		CD3AE2391AF4DE5E003CB772 /* Database.m in Sources */ = {isa = PBXBuildFile; fileRef = CD3AE2381AF4DE5E003CB772 /* Database.m */; };
+		CD3AE23B1AF4E2F9003CB772 /* Fotolia_40754713_XS.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CD3AE23A1AF4E2F9003CB772 /* Fotolia_40754713_XS.jpg */; };
+		CD3AE23E1AF4E369003CB772 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD3AE23D1AF4E369003CB772 /* MainViewController.m */; };
 		CD752F521AEF8A8B0047FBAA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD752F511AEF8A8B0047FBAA /* main.m */; };
 		CD752F551AEF8A8B0047FBAA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD752F541AEF8A8B0047FBAA /* AppDelegate.m */; };
 		CD752F5B1AEF8A8B0047FBAA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD752F591AEF8A8B0047FBAA /* Main.storyboard */; };
@@ -29,6 +34,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CD3AE2311AF4DCAC003CB772 /* Example2TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Example2TableViewController.h; sourceTree = "<group>"; };
+		CD3AE2321AF4DCAC003CB772 /* Example2TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Example2TableViewController.m; sourceTree = "<group>"; };
+		CD3AE2341AF4DCD0003CB772 /* Example2TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Example2TableViewCell.h; sourceTree = "<group>"; };
+		CD3AE2351AF4DCD0003CB772 /* Example2TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Example2TableViewCell.m; sourceTree = "<group>"; };
+		CD3AE2371AF4DE5E003CB772 /* Database.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Database.h; sourceTree = "<group>"; };
+		CD3AE2381AF4DE5E003CB772 /* Database.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Database.m; sourceTree = "<group>"; };
+		CD3AE23A1AF4E2F9003CB772 /* Fotolia_40754713_XS.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Fotolia_40754713_XS.jpg; sourceTree = "<group>"; };
+		CD3AE23C1AF4E369003CB772 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		CD3AE23D1AF4E369003CB772 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		CD752F4C1AEF8A8B0047FBAA /* TableAutoHeight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableAutoHeight.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD752F501AEF8A8B0047FBAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CD752F511AEF8A8B0047FBAA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -94,11 +108,19 @@
 				CD752F5E1AEF8A8B0047FBAA /* LaunchScreen.xib */,
 				CD752F4F1AEF8A8B0047FBAA /* Supporting Files */,
 				CD752F751AEF8AB20047FBAA /* ExampleTableViewController.h */,
+				CD3AE2311AF4DCAC003CB772 /* Example2TableViewController.h */,
+				CD3AE2321AF4DCAC003CB772 /* Example2TableViewController.m */,
 				CD752F761AEF8AB20047FBAA /* ExampleTableViewController.m */,
 				CD752F781AEF8ADB0047FBAA /* Item.h */,
 				CD752F791AEF8ADB0047FBAA /* Item.m */,
 				CD752F7B1AEF8E980047FBAA /* ExampleTableViewCell.h */,
 				CD752F7C1AEF8E980047FBAA /* ExampleTableViewCell.m */,
+				CD3AE2341AF4DCD0003CB772 /* Example2TableViewCell.h */,
+				CD3AE2351AF4DCD0003CB772 /* Example2TableViewCell.m */,
+				CD3AE2371AF4DE5E003CB772 /* Database.h */,
+				CD3AE2381AF4DE5E003CB772 /* Database.m */,
+				CD3AE23C1AF4E369003CB772 /* MainViewController.h */,
+				CD3AE23D1AF4E369003CB772 /* MainViewController.m */,
 			);
 			path = TableAutoHeight;
 			sourceTree = "<group>";
@@ -106,6 +128,7 @@
 		CD752F4F1AEF8A8B0047FBAA /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				CD3AE23A1AF4E2F9003CB772 /* Fotolia_40754713_XS.jpg */,
 				CD752F501AEF8A8B0047FBAA /* Info.plist */,
 				CD752F511AEF8A8B0047FBAA /* main.m */,
 			);
@@ -209,6 +232,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD3AE23B1AF4E2F9003CB772 /* Fotolia_40754713_XS.jpg in Resources */,
 				CD752F5B1AEF8A8B0047FBAA /* Main.storyboard in Resources */,
 				CD752F601AEF8A8B0047FBAA /* LaunchScreen.xib in Resources */,
 				CD752F5D1AEF8A8B0047FBAA /* Images.xcassets in Resources */,
@@ -230,9 +254,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				CD752F7D1AEF8E980047FBAA /* ExampleTableViewCell.m in Sources */,
+				CD3AE2331AF4DCAC003CB772 /* Example2TableViewController.m in Sources */,
+				CD3AE2391AF4DE5E003CB772 /* Database.m in Sources */,
 				CD752F7A1AEF8ADB0047FBAA /* Item.m in Sources */,
+				CD3AE23E1AF4E369003CB772 /* MainViewController.m in Sources */,
 				CD752F771AEF8AB20047FBAA /* ExampleTableViewController.m in Sources */,
 				CD752F551AEF8A8B0047FBAA /* AppDelegate.m in Sources */,
+				CD3AE2361AF4DCD0003CB772 /* Example2TableViewCell.m in Sources */,
 				CD752F521AEF8A8B0047FBAA /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -428,6 +456,7 @@
 				CD752F711AEF8A8B0047FBAA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CD752F721AEF8A8B0047FBAA /* Build configuration list for PBXNativeTarget "TableAutoHeightTests" */ = {
 			isa = XCConfigurationList;
@@ -436,6 +465,7 @@
 				CD752F741AEF8A8B0047FBAA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,43 +1,34 @@
 //
-//  ExampleTableViewController.m
+//  Example2TableViewController.m
 //  TableAutoHeight
 //
-//  Created by Hagen Hübel on 28/04/15.
-//  2015 ITinance GmbH.
+//  Created by Hagen Hübel on 02.05.15.
+//  Copyright (c) 2015 ITinance GmbH. All rights reserved.
 //
 
-#import "ExampleTableViewController.h"
-#import "ExampleTableViewCell.h"
+#import "Example2TableViewController.h"
+#import "Example2TableViewCell.h"
 #import "Database.h"
 
-@interface ExampleTableViewController ()
+@interface Example2TableViewController ()
 
 @property (nonatomic, strong) Database* database;
 
 @end
 
-@implementation ExampleTableViewController
-
-
+@implementation Example2TableViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
-    
+
     self.database = [[Database alloc] init];
     
-    
-    self.tableView.delegate = self;
     self.tableView.dataSource = self;
-    
-    self.tableView.rowHeight = UITableViewAutomaticDimension;
-    self.tableView.estimatedRowHeight = 50.0;
-    
+    self.tableView.delegate = self;
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
 #pragma mark - Table view data source
@@ -47,20 +38,27 @@
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+    
+    NSLog(@"%lu", (unsigned long)self.database.items.count);
+    
     return self.database.items.count;
 }
 
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    ExampleTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"cell" forIndexPath:indexPath];
-
+    Example2TableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"cell2" forIndexPath:indexPath];
+    
     Item* item = [self.database.items objectAtIndex:indexPath.row];
-    cell.title.text = item.title;
-    cell.details.text = item.details;
-    cell.details.numberOfLines = 0;
+    
+    cell.lblTitle.text = item.title;
+    cell.lblSubtitle.text = item.title;
+    cell.lblDetails.text = item.details;
+    
+    cell.lblDetails.numberOfLines = 0;
     
     return cell;
 }
+
 
 
 @end
